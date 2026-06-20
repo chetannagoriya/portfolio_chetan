@@ -14,21 +14,21 @@ const CERTIFICATES: Certificate[] = [
     title: "Oracle Certified Foundations Associate",
     desc: "Earned the Oracle Foundations Associate certification, demonstrating proficiency in fundamental concepts of cloud computing, databases, programming, and modern technology solutions.",
     date: "2025",
-    imageUrl: "public/images/0racel.jpg",
+    imageUrl: "/images/0racel.jpg",
     certificateUrl: "https://www.linkedin.com/in/chetannagoriya"
   },
   {
     title: "India AI Impact Buildathon",
     desc: "Participated in the India AI Impact Buildathon, showcasing skills in AI development and problem-solving by creating innovative solutions using artificial intelligence technologies.",
     date: "2026",
-    imageUrl: "public/images/ai_summit.png",
+    imageUrl: "/images/ai_summit.png",
     certificateUrl: "https://www.linkedin.com/in/chetannagoriya"
   },
   {
     title: "Linkedin Content and Creative Design",
     desc: "Completed the LinkedIn Content and Creative Design course, gaining expertise in creating engaging content and visually appealing designs for professional networking and personal branding.",
     date: "2024 — 2026",
-    imageUrl: "public/images/linkedin.jpeg",
+    imageUrl: "/images/linkedin.jpeg",
     certificateUrl: "https://www.linkedin.com/in/chetannagoriya"
   },
 ];

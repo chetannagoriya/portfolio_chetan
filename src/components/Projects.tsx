@@ -20,9 +20,9 @@ const PROJECTS: Project[] = [
     tagline: "AI-Powered Mental Wellness Platform",
     desc: "AI-powered mental wellness platform that provides mood tracking, personalized mental health insights, stress management tools, and an AI chatbot to support users' emotional well-being.",
     images: [
-      "public/images/calmnest1.png",
-      "public/images/calmnest2.png",
-      "public/images/calmnest3.png"
+      "/images/calmnest1.png",
+      "/images/calmnest2.png",
+      "/images/calmnest3.png"
     ],
     github: "https://github.com/chetannagoriya",
     live: "https://calmnest-main.vercel.app/",
@@ -38,10 +38,10 @@ const PROJECTS: Project[] = [
     tagline: "Smart Health Record System",
     desc: "A digital healthcare platform that simplifies doctor appointment booking, patient management, and healthcare accessibility, enabling users to connect with medical professionals efficiently.",
     images: [
-      "public/images/health1.png",
-      "public/images/health2.png",
-      "public/images/health3.png",
-      "public/images/health4.png",
+      "/images/health1.png",
+      "/images/health2.png",
+      "/images/health3.png",
+      "/images/health4.png",
     ],
     github: "https://github.com/chetannagoriya",
     live: "https://swasthya-sampark-0tds.onrender.com/",
@@ -57,8 +57,8 @@ const PROJECTS: Project[] = [
     tagline: "AI-Based Climate Monitoring",
     desc: "An AI and IoT-based smart water management system that monitors water quality and levels in real time, detects contamination risks, and provides data-driven insights for sustainable water resource management.",
     images: [
-      "public/images/climate1.png",
-      "public/images/climate2.png"
+      "/images/climate1.png",
+      "/images/climate2.png"
     ],
     github: "https://github.com/chetannagoriya",
     live: "https://climate-project-demo.vercel.app",

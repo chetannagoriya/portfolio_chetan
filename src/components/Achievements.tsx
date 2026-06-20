@@ -18,11 +18,10 @@ const ACHIEVEMENTS: Achievement[] = [
     date: "2025",
     images: [
       "/images/tie1.jpeg",
-      // "dist/images/tie1.jpeg",
-      "public/images/tie2.jpg",
-      "public/images/tie3.jpeg",
-      "public/images/tie4.jpg",
-      "public/images/tie5.jpeg"
+      "/images/tie2.jpg",
+      "/images/tie3.jpeg",
+      "/images/tie4.jpg",
+      "/images/tie5.jpeg"
 
           ],
     Url: "https://www.youtube.com/watch?v=fAMFbCjj5AI"
@@ -32,11 +31,11 @@ const ACHIEVEMENTS: Achievement[] = [
     desc: "🏆 2nd Runner-Up by developing an innovative solution to address a real-world challenge. Demonstrated strong technical skills, creativity, teamwork, and effective presentation abilities throughout the competition.",
     date: "2026",
     images: [
-      "public/images/uem51.jpeg",
-      "public/images/uem52.jpeg",
-      "public/images/uem53.jpeg",
-      "public/images/uem54.jpeg",
-      "public/images/uem55.jpeg"
+      "/images/uem51.jpeg",
+      "/images/uem52.jpeg",
+      "/images/uem53.jpeg",
+      "/images/uem54.jpeg",
+      "/images/uem55.jpeg"
     ],
     Url: "https://example.com/certificate/ace-hack"
   },
@@ -45,9 +44,9 @@ const ACHIEVEMENTS: Achievement[] = [
     desc: "Participated in the HACKSTORM hackathon at JEC Jaipur and secured 7th position by working on a real-world tech challenge with a focus on innovation.",
     date: "2025",
     images: [
-      "public/images/jec1.jpeg",
-      "public/images/jec2.jpeg",
-      "public/images/jec3.jpeg",
+      "/images/jec1.jpeg",
+      "/images/jec2.jpeg",
+      "/images/jec3.jpeg",
     ],
     Url: "https://example.com/certificate/hackstorm"
   },
@@ -56,7 +55,7 @@ const ACHIEVEMENTS: Achievement[] = [
     desc: "🏅 Received a ₹10,000 INSPIRE Award Scheme scholarship in Class 10 for developing an Automatic Sanitizer Dispenser that supported contactless hygiene during the COVID-19 pandemic.",
     date: "2021",
     images: [
-      "public/images/inspire.png"
+      "/images/inspire.png"
     ],
     Url: "https://example.com/certificate/inspire"
   },
@@ -65,8 +64,8 @@ const ACHIEVEMENTS: Achievement[] = [
     desc: "Organized technical events such as Geospatial Hackathon, Projectathon 1.0, and Projectathon 2.0, managing end-to-end event execution and fostering innovation, collaboration, and technical learning among participants.",
     date: "2023 — Present",
     images: [
-      "public/images/h1.jpg",
-      "public/images/h2.jpg"
+      "/images/h1.jpg",
+      "/images/h2.jpg"
     ],
     Url: "https://example.com/certificate/organizer"
   },
@@ -75,8 +74,8 @@ const ACHIEVEMENTS: Achievement[] = [
   //   desc: "My Team selected for HackMole 7.0 Final offline round, a prestigious hackathon organized by NIT Jalandhar, where we showcased our innovative project and competed with talented teams from across the country.",
   //   date: "2026",
   //   images: [
-  //     "public/images/nitjal1.jpeg",
-  //     "public/images/nitjal3.jpeg"
+  //     "/images/nitjal1.jpeg",
+  //     "/images/nitjal3.jpeg"
   //   ],
   //   Url: "https://example.com/certificate/organizer"
   // },
