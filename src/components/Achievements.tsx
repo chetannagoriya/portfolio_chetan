@@ -17,7 +17,7 @@ const ACHIEVEMENTS: Achievement[] = [
     desc: "🏆 1st Runner-Up at Rajasthan Digifest X TiE Global Hackathon Recognized for developing an innovative solution and demonstrating strong teamwork, technical expertise, and problem-solving abilities in a competitive hackathon environment.",
     date: "2025",
     images: [
-      "public/images/tie1.jpeg",
+      "/images/tie1.jpeg",
       // "dist/images/tie1.jpeg",
       "public/images/tie2.jpg",
       "public/images/tie3.jpeg",
