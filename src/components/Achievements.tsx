@@ -24,7 +24,7 @@ const ACHIEVEMENTS: Achievement[] = [
       "/images/tie5.jpeg"
 
           ],
-    Url: "https://www.youtube.com/watch?v=fAMFbCjj5AI"
+    Url: "https://www.linkedin.com/posts/chetannagoriya_tieglobalsummit-rajasthandigifest-aiimpact-activity-7414697317565431808-Bjr-?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEQoezABOfxRZtqhdgcrJdXrZpxHzkla_ZA"
   },
   {
     title: "ACE HACK 5.0 | UEM Jaipur",
@@ -37,7 +37,7 @@ const ACHIEVEMENTS: Achievement[] = [
       "/images/uem54.jpeg",
       "/images/uem55.jpeg"
     ],
-    Url: "https://example.com/certificate/ace-hack"
+    Url: "https://www.linkedin.com/posts/chetannagoriya_acehack5-uemjaipur-mlh-activity-7439241584203698176-9P9F?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEQoezABOfxRZtqhdgcrJdXrZpxHzkla_ZA"
   },
   {
     title: "HACKSTORM | JEC Jaipur",
@@ -48,7 +48,7 @@ const ACHIEVEMENTS: Achievement[] = [
       "/images/jec2.jpeg",
       "/images/jec3.jpeg",
     ],
-    Url: "https://example.com/certificate/hackstorm"
+    Url: "https://www.linkedin.com/posts/chetannagoriya_jec-hackathon-networking-activity-7391505302493245440-M5X-?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEQoezABOfxRZtqhdgcrJdXrZpxHzkla_ZA"
   },
   {
     title: "INSPIRE AWARD SCHLOARSHIP",
@@ -57,7 +57,7 @@ const ACHIEVEMENTS: Achievement[] = [
     images: [
       "/images/inspire.png"
     ],
-    Url: "https://example.com/certificate/inspire"
+    Url: "#"
   },
   {
     title: "Hackathon & Tech Event Organizer",
@@ -67,7 +67,7 @@ const ACHIEVEMENTS: Achievement[] = [
       "/images/h1.jpg",
       "/images/h2.jpg"
     ],
-    Url: "https://example.com/certificate/organizer"
+    Url: "https://www.linkedin.com/posts/chetannagoriya_aceit-hackathon-arya-activity-7427670602196426752-YZYj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEQoezABOfxRZtqhdgcrJdXrZpxHzkla_ZA"
   },
   // {
   //   title: "HackMole 7.0 | NIT Jalandhar",
