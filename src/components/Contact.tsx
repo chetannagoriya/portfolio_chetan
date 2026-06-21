@@ -1,4 +1,7 @@
 import { useState } from "react";
+
+import emailjs from "@emailjs/browser";
+
 import SectionHeading from "./SectionHeading";
 import {
   MailIcon,
@@ -9,7 +12,7 @@ import {
 } from "./Icons";
 
 const CONTACT_INFO = [
-  { icon: MailIcon, label: "Email", value: "chetan.nagoriya@example.com", href: "mailto:chetan.nagoriya@example.com" },
+  { icon: MailIcon, label: "Email", value: "chetannagoriya7@gmail.com", href: "mailto:chetannagoriya7@gmail.com" },
 ];
 
 const SOCIALS = [
@@ -22,12 +25,65 @@ const SOCIALS = [
 export default function Contact() {
   const [sent, setSent] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    setSent(true);
-    (e.target as HTMLFormElement).reset();
-    setTimeout(() => setSent(false), 4000);
-  };
+  // const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  //   e.preventDefault();
+  //   setSent(true);
+  //   (e.target as HTMLFormElement).reset();
+  //   setTimeout(() => setSent(false), 4000);
+  // };
+
+  
+
+// const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+//   e.preventDefault();
+
+//   try {
+//     await emailjs.sendForm(
+//       "service_yz9psf4",
+//       "template_sin1tig",
+//       e.currentTarget,
+//       "cBqcDStRT4C7je1hA"
+//     );
+
+//     setSent(true);
+//     e.currentTarget.reset();
+
+//     setTimeout(() => setSent(false), 4000);
+//   } catch (error) {
+//     console.error("EmailJS Error:", error);
+//     alert("Failed to send message.");
+//   }
+// };
+
+const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  e.preventDefault();
+  
+  const form = e.currentTarget; // ✅ pehle store kar lo
+
+  try {
+    const result = await emailjs.sendForm(
+      "service_yz9psf4",
+      "template_sin1tig",
+      form,           // ✅ stored reference use karo
+      "cBqcDStRT4C7je1hA"
+    );
+
+    console.log("EmailJS Result:", result); // debug ke liye
+
+    if (result.status === 200) {
+      setSent(true);
+      form.reset();
+      setTimeout(() => setSent(false), 4000);
+    } else {
+      alert("Something went wrong. Status: " + result.status);
+    }
+
+  } catch (error) {
+    console.error("EmailJS Error:", error);
+    // ❌ alert hatao temporarily, console mein dekho exact error
+  }
+};
+
 
   return (
     <section id="contact" className="theme-section relative py-24">
