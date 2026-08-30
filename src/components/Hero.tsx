@@ -89,7 +89,7 @@ export default function Hero() {
 
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row lg:justify-start">
             <a
-              href="/resume.pdf"
+              href="E:\project\portfolio_chetan\resume.pdf"
               download
               className="keep-white group inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-violet-600 to-blue-600 px-7 py-3.5 font-semibold shadow-lg shadow-violet-600/30 transition-transform hover:scale-105"
             >
